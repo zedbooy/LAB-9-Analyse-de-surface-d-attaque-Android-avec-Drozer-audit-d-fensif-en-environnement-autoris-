@@ -22,15 +22,6 @@
 
 <img width="578" height="265" alt="image" src="https://github.com/user-attachments/assets/6cc5f88b-fbb5-4b81-9b3a-304e399d98c9" />
 
-## Introduction
-Ce dépôt contient les résultats d'un audit de sécurité dynamique réalisé sur l'application Android **Sieve** (`com.withsecure.example.sieve`). L'objectif principal est d'identifier et d'analyser la surface d'attaque IPC (Inter-Process Communication) en utilisant le framework **Drozer**. Ce travail s'inscrit dans une démarche d'audit défensif visant à sécuriser les composants Android contre les accès non autorisés et les fuites de données.
-
-## Objectifs
-*   Énumérer les composants exposés (Activities, Services, Receivers, Providers).
-*   Évaluer la robustesse des permissions configurées dans le `AndroidManifest.xml`.
-*   Identifier les vulnérabilités de type SQL Injection et Directory Traversal dans les Content Providers.
-*   Documenter les risques et proposer des mesures de remédiation conformes aux standards de sécurité.
-
 ## Environnement utilisé
 *   **Système Hôte :** Windows (Local)
 *   **Émulateur :** Android Emulator (Environnement contrôlé et autorisé)
