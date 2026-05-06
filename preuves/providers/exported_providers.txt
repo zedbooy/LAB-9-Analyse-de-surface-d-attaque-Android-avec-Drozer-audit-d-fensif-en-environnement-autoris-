@@ -1,0 +1,8 @@
+DBContentProvider
+URIs:
+- content://com.withsecure.example.sieve.provider.DBContentProvider/Passwords/
+- content://com.withsecure.example.sieve.provider.DBContentProvider/Keys/
+
+FileBackupProvider
+URIs:
+- content://com.withsecure.example.sieve.provider.FileBackupProvider

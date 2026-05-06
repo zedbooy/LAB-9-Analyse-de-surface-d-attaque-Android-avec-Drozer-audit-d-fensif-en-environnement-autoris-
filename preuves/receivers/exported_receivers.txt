@@ -1,0 +1,2 @@
+androidx.profileinstaller.ProfileInstallReceiver
+Protection: android.permission.DUMP
